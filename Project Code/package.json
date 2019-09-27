@@ -1,0 +1,26 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "SET NODE_ENV=production & nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.1.0",
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.3.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "morgan": "^1.9.1",
+    "ndb": "^1.1.5",
+    "prettier": "^1.18.2",
+    "validator": "^11.1.0"
+  }
+}
